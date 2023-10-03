@@ -21,9 +21,10 @@
 - **Стили**: CSS Modules
 - **Сортировка карт**: дебетовые (debit) => кредитные (credit) => карты сторонних банков (external) => вклады (saving) => кредиты (loan);
 - **Сортировка валют**: RUB => USD => EUR => GBP;
-- **Маршрутизация**: [react-router-dom];
+- **Маршрутизация**: react-router-dom;
 - **NotFoundPage**;
 - **Хранения данных**: Redux, для асинхронных actions используется `redux-thunk`.
+- Валидация формы привязки карты.
 - Реализована возможность переименования аккаунтов пользователя (изменение customTitle). Также можно удалять привязанные карты.
 -![пример работы приложения](https://raw.githubusercontent.com/Uplerika/ReactBank-Credit-Cards/main/public/hm3-example.gif)
 
