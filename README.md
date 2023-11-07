@@ -1,6 +1,6 @@
 # ReactBank-Credit-Cards
 
-Основные инструменты: React, TypeScript, Redux, CSS Modules, React Router v6.
+Основные инструменты: React, TypeScript, Redux, CSS Modules, React Router.
 
 [Ссылка на приложение](https://react-credit-cards.vercel.app/)
 
@@ -23,7 +23,7 @@
 - **Стили**: CSS Modules
 - **Сортировка карт**: дебетовые (debit) => кредитные (credit) => карты сторонних банков (external) => вклады (saving) => кредиты (loan);
 - **Сортировка валют**: RUB => USD => EUR => GBP;
-- **Маршрутизация**: React Router v6;
+- **Маршрутизация**: React Router;
 - **NotFoundPage**;
 - **Хранения данных**: Redux, для асинхронных actions используется `redux-thunk`.
 - Валидация формы привязки карты.
